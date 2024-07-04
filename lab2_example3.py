@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 nFolds = 3 #we are doing 3-fold cross validation
 
 #read the data file
-df = pd.read_csv("districtLevelData_discretized.csv")
+df = pd.read_csv("D:\Data Mining\Data Mining\Practical\districtLevelData_discretized.csv")
 clf = tree.DecisionTreeClassifier(max_depth=50,criterion='entropy',random_state=0)
 
 #extract the class labels and attributes from the data set
