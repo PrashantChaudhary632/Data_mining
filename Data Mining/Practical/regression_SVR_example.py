@@ -8,7 +8,7 @@ import pandas as pd
 reg = SVR(C=2,epsilon=0.1)
 
 
-df = pd.read_csv('Concrete_data.csv')
+df = pd.read_csv('D:\Data Mining\Data Mining\Practical\Concrete_data.csv')
 
 X = df.iloc[:,0:7].to_numpy()
 y = df.iloc[:,8].to_numpy()
